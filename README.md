@@ -19,4 +19,4 @@ to run the app
 
 for more info about firebase
 
-[firebase/install]()
+[firebase/setup](https://firebase.google.com/docs)

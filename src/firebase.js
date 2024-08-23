@@ -7,12 +7,12 @@ import { getAuth,signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBi44wCxOo7gSWIWmXe3ATxwgh6ImZ-KGU",
-  authDomain: "foodapp-aafb9.firebaseapp.com",
-  projectId: "foodapp-aafb9",
-  storageBucket: "foodapp-aafb9.appspot.com",
-  messagingSenderId: "274207538046",
-  appId: "1:274207538046:web:fc07f3b3c32aa01f23112f"
+  apiKey: process.env.Firebase_apikey,
+  authDomain: process.env.Firebase_authDomain,
+  projectId: process.env.Firebase_projectId,
+  storageBucket: process.env.Firebase_storageBucket,
+  messagingSenderId: process.env.Firebase_messagingSenderId,
+  appId: process.env.Firebase_appId,
 };
 
 // Initialize Firebase
